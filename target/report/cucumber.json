@@ -1,0 +1,338 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-17T08:41:26.324Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7348485900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Utilities.hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Corporate Announcement",
+        "description": "",
+        "id": "corporate-announcement-on-the-nse;corporate-announcement",
+        "after": [
+          {
+            "result": {
+              "duration": 1627303800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Utilities.hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30167928900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is at the NSE page1",
+            "match": {
+              "location": "StepDefination.stepdefination.user_is_at_the_nse_page1()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 18073941100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User vists Corporate Announcement",
+            "match": {
+              "location": "StepDefination.stepdefination.user_vists_corporate_announcement()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: //div[@id\u003d\u0027slick-slide60\u0027]/div\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027SHRAVRA1\u0027, ip: \u0027192.168.43.36\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 10968, moz:profile: C:\\Users\\ShravyaRai\\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: 4eb95c2d-6ae9-4973-9ead-577dd088414c\n*** Element info: {Using\u003dxpath, value\u003d//div[@id\u003d\u0027slick-slide60\u0027]/div}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat StepDefination.stepdefination.user_gets_the_first_company_details(stepdefination.java:140)\r\n\tat ✽.User gets the first company details(file:///C:/SDET-Shravya/SDET/SeleniumHandsON/src/test/java/Features/features.feature:7)\r\n",
+              "duration": 39099950100,
+              "status": "failed"
+            },
+            "line": 7,
+            "name": "User gets the first company details",
+            "match": {
+              "location": "StepDefination.stepdefination.user_gets_the_first_company_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "User gets the second company details",
+            "match": {
+              "location": "StepDefination.stepdefination.user_gets_the_second_company_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 945900,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "User gets the third company details",
+            "match": {
+              "location": "StepDefination.stepdefination.user_gets_the_third_company_details()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 997300,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "User gets the fourth company details",
+            "match": {
+              "location": "StepDefination.stepdefination.user_gets_the_fourth_company_details()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T08:43:02.883Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5400270400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Utilities.hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Find Company Directory of a particular company",
+        "description": "",
+        "id": "corporate-announcement-on-the-nse;find-company-directory-of-a-particular-company",
+        "after": [
+          {
+            "result": {
+              "duration": 1496680200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Utilities.hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 30555867600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is at the NSE page2",
+            "match": {
+              "location": "StepDefination.stepdefination.user_is_at_the_nse_page2()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24932886300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User vists Comapny directory",
+            "match": {
+              "location": "StepDefination.stepdefination.user_vists_comapny_directory()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.NoSuchElementException: Unable to locate element: //p/span[contains(.,\u0027TATA Steel \u0027)]\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:25:53\u0027\nSystem info: host: \u0027SHRAVRA1\u0027, ip: \u0027192.168.43.36\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002715.0.2\u0027\nDriver info: org.openqa.selenium.firefox.FirefoxDriver\nCapabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 89.0.1, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20210614221319, moz:geckodriverVersion: 0.29.1, moz:headless: false, moz:processID: 15596, moz:profile: C:\\Users\\ShravyaRai\\AppData..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 10.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}\nSession ID: f9582b81-2658-447d-ad6f-2b12c1ef2991\n*** Element info: {Using\u003dxpath, value\u003d//p/span[contains(.,\u0027TATA Steel \u0027)]}\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)\r\n\tat java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)\r\n\tat java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\r\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\r\n\tat StepDefination.stepdefination.user_searches_for_a_company_details(stepdefination.java:257)\r\n\tat ✽.User searches for a company details(file:///C:/SDET-Shravya/SDET/SeleniumHandsON/src/test/java/Features/features.feature:15)\r\n",
+              "duration": 13626084300,
+              "status": "failed"
+            },
+            "line": 15,
+            "name": "User searches for a company details",
+            "match": {
+              "location": "StepDefination.stepdefination.user_searches_for_a_company_details()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 999400,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User stores company details",
+            "match": {
+              "location": "StepDefination.stepdefination.user_stores_company_details()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T08:44:18.930Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5474622700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Utilities.hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Knowing Clearing Holidays for Equities",
+        "description": "",
+        "id": "corporate-announcement-on-the-nse;knowing-clearing-holidays-for-equities",
+        "after": [
+          {
+            "result": {
+              "duration": 1328809400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Utilities.hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 33603591900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User is at the NSE page3",
+            "match": {
+              "location": "StepDefination.stepdefination.user_is_at_the_nse_page3()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10205492400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User vists Clearing Holidays page",
+            "match": {
+              "location": "StepDefination.stepdefination.user_vists_clearing_holidays_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2370389100,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User stores the holiday details",
+            "match": {
+              "location": "StepDefination.stepdefination.user_stores_the_holiday_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-06-17T08:45:11.931Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5463206800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Utilities.hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Knowing about Classroom Courses",
+        "description": "",
+        "id": "corporate-announcement-on-the-nse;knowing-about-classroom-courses",
+        "after": [
+          {
+            "result": {
+              "duration": 1593775500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Utilities.hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 28929998700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User is at the NSE page4",
+            "match": {
+              "location": "StepDefination.stepdefination.user_is_at_the_nse_page4()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11490891700,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User vists Currency and Commodities Course page",
+            "match": {
+              "location": "StepDefination.stepdefination.user_vists_currency_and_commodities_course_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 17156714000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User checks the course details",
+            "match": {
+              "location": "StepDefination.stepdefination.user_checks_the_course_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Corporate Announcement on the NSE",
+    "description": "  User checks latest Corporate Announcement on the NSE",
+    "id": "corporate-announcement-on-the-nse",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/Features/features.feature",
+    "tags": []
+  }
+]
